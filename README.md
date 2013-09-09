@@ -32,9 +32,11 @@
 
 ### 调用api
 
+例子
+
 >获取图书信息    GET /v2/book/:id
 
-`c.get__v2__book__id('bookid')
+`c.get__v2__book__id('bookid')`
 
 >用户收藏某本图书   POST    /v2/book/:id/collection
 
