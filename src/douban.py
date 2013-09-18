@@ -44,7 +44,7 @@ class APIClient(object):
             for index, val in enumerate(l):
                 if val in ['id', 'name']:
                     l[index] = '%s'
-            path = API_URL + '/'.join(l) + '/'
+            path = API_URL + '/'.join(l)
             kwargs['source'] = self.__client_id
             if args:
                 path = path % args
