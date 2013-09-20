@@ -10,7 +10,7 @@
 
 创建`client`对象
 
-`c = douban.APIClient('Your API Key', 'Secret', 'redirect_url', 'code')`
+`c = douban.APIClient('Your API Key', 'Secret', 'redirect_url', 'code', ['douban_basic_common','book_basic_r'])`
 
 通过 `authorize_url` 授权获得`access_token`
 
